@@ -20,7 +20,7 @@ c.height = window.innerHeight;
 c.width = window.innerWidth;
 
 // the characters
-var konkani  = "゠アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレワヰヱヲンヺ・ーヽヿ0123456789"
+var konkani  = "local symb = {[1] = '+', [2] = '-', [3] = '*', [4] = '/'} local a = math.random(0, 50) local b = math.random(0, 50) local eq = math.random(1, 4) game.Players.LocalPlayer.PlayerGui.Main.MathP.Text = a..' '..symb[eq]..' '..b..' = ?'"
 // converting the string into an array of single characters
 var characters = konkani.split("");
 var font_size = 14;
